@@ -1,0 +1,17 @@
+#-----------------------------------------------------------------
+# Program Name: Option 1-Weekly Average Tax Withholding Calculator
+# Author: Melanie Cadd
+# October 27, 2024
+#-----------------------------------------------------------------
+# Pseudocode: Calculate the weekly tax withholding by multiplying 
+# the income by the tax rate.
+#-----------------------------------------------------------------
+
+1. Prompt user to enter weekly income.
+2. Check the income range:
+   a. If income < 500, apply a tax rate of 10%.
+   b. If 500 <= income < 1500, apply a tax rate of 15%.
+   c. If 1500 <= income < 2500, apply a tax rate of 20%.
+   d. If income >= 2500, apply a tax rate of 30%.
+3. Calculate the weekly tax withholding by multiplying the income by the applicable tax rate.
+4. Output the weekly tax withholding amount. 
